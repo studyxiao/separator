@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.dark {
+  background: #121212;
+  color-scheme: dark;
+}
+
+body {
+  box-sizing: border-box;
+}
