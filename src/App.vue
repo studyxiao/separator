@@ -4,7 +4,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'A simple tool to separate your bookmarks into categories.',
+      content: 'A simple tool to separate your bookmarks with categories.',
     },
   ],
 })
