@@ -13,7 +13,7 @@ import VueMacros from 'unplugin-vue-macros/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/separator/',
   resolve: {
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`,
