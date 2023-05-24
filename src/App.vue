@@ -1,17 +1,10 @@
 <script setup lang="ts">
 useHead({
-  title: 'VMoe',
+  title: 'Bookmarks Separator',
   meta: [
     {
       name: 'description',
-      content: 'Opinionated Vite Starter Template from vitesse',
-    },
-  ],
-  link: [
-    {
-      rel: 'icon',
-      type: 'image/svg+xml',
-      href: () => preferredDark.value ? '/favicon-dark.svg' : '/favicon.svg',
+      content: 'A simple tool to separate your bookmarks into categories.',
     },
   ],
 })

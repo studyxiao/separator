@@ -1,11 +1,11 @@
 ## Bookmarks Horizontal Separator
 
-- Custom Emoji icon
 - Custom Category name
 - darg & Pointer
 
 ## TODO
 
+- Custom Emoji icon
 - 本地存储
 - Vertical Separator
 - Custom line type and length
