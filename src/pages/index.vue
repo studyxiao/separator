@@ -8,10 +8,10 @@ const showName = computed(() => name.value?.length > 0 ? ` ${name.value} ` : '')
     <div class="relative transition-all hover:scale-110 hover:drop-shadow-xl">
       <div class="flex flex-col space-y-8 bg-[#2f2f2f] rounded-2xl p-10 text-[#fefefe] text-2xl cursor-pointer outline-dashed outline-4 outline-offset-transparent outline-offset-2 outline-yellow-300 hover:outline-offset-4 min-w-[200px] lg:min-w-[30rem] text-center">
         <span class="text-3xl text-yellow-500 animate-bounce">Drag me!</span>
-        <span class="truncate">——————{{ showName }}——————</span>
+        <span class="truncate">──────{{ showName }}──────</span>
       </div>
       <a href="" class="absolute inset-0"><span class="hidden">
-        ——————{{ showName }}——————
+        ──────{{ showName }}──────
       </span></a>
     </div>
 
